@@ -1,0 +1,79 @@
+nav {
+    opacity: 0.9; 
+    background-color: darkslategray;
+}
+footer {
+background-color: darkslategray;
+}
+
+.Home {
+    background-image: url(./photos/cover-pixabay-159711.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color:white;
+    text-align: center;
+}
+.Home1{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.Home2 h2::after{
+    content: "";
+    animation-name: type;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes type {
+    0%{content: "|";}
+    10%{content: "M";}
+    20%{content: "Mi";}
+    30%{content: "Min";}
+    40%{content: "Mind";}
+    50%{content: "Minds";}
+    60%{content: "Mind";}
+    70%{content: "Min";}
+    80%{content: "Mi";}
+    90%{content: "M";}
+    100%{content: "";}
+}
+/* تغيير لون أيقونة فيسبوك */
+.fa-facebook {
+    color: #3b5998; /* اللون الخاص بفيسبوك */
+}
+
+/* تغيير لون أيقونة واتساب */
+.fa-whatsapp {
+    color: #25d366; /* اللون الخاص بواتساب */
+}
+
+/* تغيير لون أيقونة يوتيوب */
+.fa-youtube {
+    color: #ff0000; /* اللون الخاص بيوتيوب */
+}
+#Subject .card {
+    margin-bottom: 20px;
+    background-color:oldlace ;
+  }
+  
+  #Subject .card-img-top {
+    height: 200px; /* يمكنك تعديل الارتفاع حسب الحاجة */
+    object-fit: cover; /* لضمان أن الصورة تغطي المساحة بالكامل بدون تشويه */
+  }
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  body{ 
+    background-color:oldlace;
+  }
+  #FAQs .accordion-item{
+    background-color:oldlace;
+  }
+  #FAQs .accordion-body{
+    background-color:oldlace ;
+  }
